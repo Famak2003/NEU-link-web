@@ -21,7 +21,7 @@ const LanguageSwitcher:React.FC<{scrolled?: boolean}> = ({scrolled}) => {
                 return(
                     <>
                         <Link
-                            key={locale}
+                            key={idx}
                             href={redirectedPathName(locale)}
                             className={`uppercase hover:underline ${scrolled ? "text-white" : "text-black"} ${locale} `}
                         >

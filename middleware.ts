@@ -13,7 +13,7 @@ export function middleware(request: NextRequest) {
     // Redirect if there is no locale
     if (pathnameIsMissingLocale) {
         const locale = i18n.defaultLocale;
-        console.log("THIS IS THE DEGFAULT LOCALE", locale)
+        // console.log("THIS IS THE DEGFAULT LOCALE", locale)
         return NextResponse.redirect(
             new URL(`/${locale}${pathname}`, request.url)
         );

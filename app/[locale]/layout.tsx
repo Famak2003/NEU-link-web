@@ -16,19 +16,20 @@ export const metadata: Metadata = {
     apple: "../favicon.png"
   }
 };
-
+Promise<{ locale: string }>;
 export default async function RootLayout({
   children,
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: Locale }>;
+  params: Promise<{ locale: string }>;
 }>) {
-  const { locale } = await params; 
-  const dict = await getDictionary(locale);
+  const { locale } = await params;
+  const validLocale = (locale === 'tr' || locale === 'en' ? locale : 'en') as Locale;
+  const dict = await getDictionary(validLocale);
 
   return (
-    <html lang={locale}>
+    <html lang={validLocale}>
       <body className="antialiased font-arial h-fit flex justify-center items-center">
         <DictionaryProvider dictionary={dict as any}>
           <Index children={children}/>
