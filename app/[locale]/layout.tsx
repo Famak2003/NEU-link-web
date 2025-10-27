@@ -9,12 +9,12 @@ import Index from ".";
 
 export const metadata: Metadata = {
   title: "NEU link",
-  description: "The Near East University Alumni Platform is a powerful network that brings our graduates together, supporting both professional and social life. Here, you can reconnect with old friends, join events, and discover career opportunities.",
-  icons: {
-    icon: "./favicon.png",
-    shortcut: "./favicon.png",
-    apple: "./favicon.png"
-  }
+  description: "The Near East University Link Platform is a powerful network that brings our graduates together, supporting both professional and social life. Here, you can reconnect with old friends, join events, and discover career opportunities.",
+  // icons: {
+  //   icon: "./favicon.png",
+  //   shortcut: "./favicon.png",
+  //   apple: "./favicon.png"
+  // }
 };
 Promise<{ locale: string }>;
 export default async function RootLayout({
