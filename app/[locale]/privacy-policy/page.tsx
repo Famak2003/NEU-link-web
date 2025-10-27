@@ -473,11 +473,9 @@ function PrivacyAndPolicy() {
                 <p className="text-gray-700 leading-relaxed mb-3">
                     If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact Punica App Support Team:
                 </p>
+
                 <div className="bg-gray-50 p-6 rounded-lg space-y-2 text-gray-700">
-                <p><span className="font-semibold">Email:</span> privacy@punica.app</p>
-                <p><span className="font-semibold">Address:</span> [Your Company Address]</p>
-                <p><span className="font-semibold">Phone:</span> [Your Contact Phone]</p>
-                <p><span className="font-semibold">Data Protection Officer:</span> [If applicable]</p>
+                <p><span className="font-semibold">Email:</span> Email: privacy@punica.app</p>
                 </div>
                 <p className="text-gray-700 leading-relaxed mt-4">
                 For data protection inquiries specifically, please use the subject line "Privacy Policy Inquiry" in your email.
@@ -488,7 +486,7 @@ function PrivacyAndPolicy() {
             <section className="mb-10">
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">12. Governing Law</h2>
                 <p className="text-gray-700 leading-relaxed">
-                This Privacy Policy is governed by the laws of [Your Jurisdiction] and any disputes will be resolved in the courts of [Your Jurisdiction].
+                This Privacy Policy is governed by the laws of TRNC and any disputes will be resolved in the courts of TRNC.
                 </p>
             </section>
 

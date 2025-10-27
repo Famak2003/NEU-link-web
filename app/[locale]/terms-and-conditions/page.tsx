@@ -308,14 +308,10 @@ function TermsAndConditions() {
           content: (
             <>
               <p className="mb-2">
-                For legal or terms-related inquiries, please contact us:
+                For legal or terms-related inquiries, please contact Punica App Support Team:
               </p>
               <p>
-                <strong>Email:</strong> [Your Contact Email]
-                <br />
-                <strong>Address:</strong> [Your Company Address]
-                <br />
-                <strong>Phone:</strong> [Your Contact Phone]
+                <strong>Email:</strong> privacy@punica.app
               </p>
             </>
           ),
