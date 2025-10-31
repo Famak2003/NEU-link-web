@@ -23,12 +23,12 @@ const LanguageSwitcher:React.FC<{scrolled?: boolean}> = ({scrolled}) => {
                         <Link
                             key={idx}
                             href={redirectedPathName(locale)}
-                            className={`uppercase hover:underline ${scrolled ? "text-white" : "text-black"} ${locale} `}
+                            className={`uppercase hover:underline text-white ${locale} `}
                         >
                             {locale}
                         </Link>
                         {first && (
-                            <span className={`${scrolled ? "text-white" : "text-black"}`}>
+                            <span className={` text-white`}>
                                 /
                             </span>
                         )}

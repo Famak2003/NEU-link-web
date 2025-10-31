@@ -89,7 +89,12 @@ module.exports = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		boxShadow: {
+			button_shadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+			custom_shad1: "rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px",
+        	custom_shad2: "rgb(88, 88, 88, 0.25) 0px -12px 10px, rgb(88, 88, 88, 0.22) 0px -12px 10px",
+		}
   	}
   },
   plugins: [
