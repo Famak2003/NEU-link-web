@@ -30,7 +30,7 @@ export default async function RootLayout({
 
   return (
     <html lang={validLocale}>
-      <body className="antialiased font-arial h-fit flex justify-center items-center">
+      <body className="antialiased font-arial h-fit flex justify-center items-center px-[25px] mobile:px-[45px] sm:px-[90px]">
         <DictionaryProvider dictionary={dict as any}>
           <Index children={children}/>
         </DictionaryProvider>

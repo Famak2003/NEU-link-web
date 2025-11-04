@@ -51,8 +51,14 @@ const Index:React.FC<{children: React.ReactNode}> = ({children}) => {
 
 
     return (
-        <div className=" relative w-full max-w-[2000px] overflow-hidden h-fit px-[15px] ">
-            <nav className={` fixed top-10 left-[2.5%] mx-auto w-[95%] flex justify-between items-center px-[15px] lmobile:px-[30px] h-fit py-[10px] rounded-[20px] bg-primary z-[99999999] duration-200 `}>
+        <div className=" relative w-full max-w-[1300px] overflow-hidden h-fit ">
+            <nav className={` fixed top-10 flex justify-between items-center px-[15px] lmobile:px-[30px] h-fit py-[10px] max-w-[1300px] rounded-[20px] inset-[25px] mobile:inset-x-[45px] sm:inset-x-[90px] mx-auto !bg-primary z-[99999999] duration-200 `}
+                // style={{
+                //     left: '90px',
+                //     right: '90px',
+                //     width: 'calc(100% - 180px)' // 45px padding on each side
+                // }}
+            >
                 <Link href={"/"} className=" flex justify-center gap-2 mobile:gap-5 items-end ">
                     <Image src={NEULOGO} alt="Near East University" width={40} height={40} />
                     <h1 className={` text-2xl smobile:text-3xl font-thin text-white `}>NEU Link</h1>
