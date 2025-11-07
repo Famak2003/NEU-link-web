@@ -143,8 +143,8 @@ export default function Home() {
             </section>
 
             <footer className=" flex flex-col xl:flex-row gap-3 xl:gap-0 items-center justify-between h-fit xl:h-[70px] pb-3  ">
-                <div className=" flex items-end gap-2 ">
-                    <p className=" text-[10px] ">
+                <div className=" flex items-center gap-2 ">
+                    <p className=" text-[14px] ">
                         {dict.POWERED_BY}
                     </p>
                     <a
