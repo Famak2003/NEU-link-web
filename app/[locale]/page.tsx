@@ -21,7 +21,7 @@ import PROFILE from '@/assets/profile.png'
 import NEWSIM from '@/assets/new-sim.png'
 import APPLE_EN from '@/assets/apple-en.svg'
 import APPLE_TR from '@/assets/apple-tr.svg'
-import PLAY_EN from '@/assets/play-en.svg'
+import PLAY_EN from '@/assets/google-play-badge.svg'
 import PLAY_TR from '@/assets/play-tr.svg'
 import PUNICA from '@/assets/punica-logo.png'
 import NEULOGO from '@/assets/near-east-university-logo.png'
@@ -34,6 +34,7 @@ import FacebookIcon from "@/assets/svg/FacebookIcon";
 import TwitterIcon from "@/assets/svg/TwitterIcon";
 import InstagramIcon from "@/assets/svg/InstagramIcon";
 import LinkedinIcon from "@/assets/svg/LinkedinIcon";
+import GooglePlay from "@/assets/svg/Googleplay";
 
 export default function Home() {
     const dict = useDictionary()
@@ -82,11 +83,12 @@ export default function Home() {
                         </p>
                     </div>
                     <div className=" flex flex-col smobile:flex-row gap-3 sm:gap-5 ">
-                        <figure className=" pl-[10px] smobile:pl-0">
-                            <Image className="  h-full " src={APPLE_EN} alt="apple store" />
+                        <figure className=" w-[150px] smobile:w-[180px] h-[60px] mobile:py-[2px]">
+                            <Image className=" h-full w-full " src={APPLE_EN} alt="apple store" />
                         </figure>  
-                        <figure className=" ">
-                            <Image className=" " src={PLAY_EN} alt="play store" />
+                        <figure className=" w-[150px] smobile:w-[180px] h-[60px]">
+                            {/* <GooglePlay width={180} height={"100%"}  /> */}
+                            <Image className=" !h-full w-full object-cover " src={PLAY_EN} alt="play store" />
                         </figure>  
                                                   
                         {/* <div className=" flex items-center justify-between gap-2 smobile:gap-4 bg-black w-fit py-3 px-4 smobile:px-7 rounded-2xl ">
@@ -140,11 +142,24 @@ export default function Home() {
                 </div>
             </section>
 
-            <footer className=" flex flex-col xl:flex-row gap-5 tab:gap-0 items-center justify-between h-fit xl:h-[70px] pb-3  ">
-                <div className=" flex flex-col tab:flex-row items-center justify-center gap-5 sm:gap-7 xl:gap-10 ">
+            <footer className=" flex flex-col xl:flex-row gap-3 xl:gap-0 items-center justify-between h-fit xl:h-[70px] pb-3  ">
+                <div className=" flex items-end gap-2 ">
+                    <p className=" text-[10px] ">
+                        {dict.POWERED_BY}
+                    </p>
+                    <a
+                        href="https://punica.app"
+                        aria-label="punica"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Image className=" h-[18px] w-[80px] " src={PUNICA} alt="punica logo" />
+                    </a>
+                </div>
+                <div className=" flex flex-col xl:flex-row items-center justify-center gap-3 xl:gap-10 ">
                     <ul className=" flex justify-center flex-wrap tab:flex-nowrap items-center gap-2 tab:gap-4 ">
                         <li className=" text-[12px] text-black text-center ">
-                            {` © ${year} ${dict.ALL_RIGHTS_RESERVED} ${dict.BY} ${dict.NEAR_EAST_UNIVERSITY}`}
+                            {` © ${year} ${dict.ALL_RIGHTS_RESERVED_BY_NEAR_EAST_UNIVERSITY}`}
                         </li>
                         {
                             footerData.map((obj, idx) => {
@@ -176,19 +191,6 @@ export default function Home() {
                             })
                         }
                     </div>
-                </div>
-                <div className=" flex items-center gap-2 ">
-                    <p className=" text-[10px] ">
-                        {dict.POWERED_BY}
-                    </p>
-                     <a
-                        href="https://punica.app"
-                        aria-label="punica"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Image className=" h-[18px] w-[80px] " src={PUNICA} alt="punica logo" />
-                    </a>
                 </div>
             </footer>
 
