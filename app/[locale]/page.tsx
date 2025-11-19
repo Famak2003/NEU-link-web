@@ -83,12 +83,19 @@ export default function Home() {
                         </p>
                     </div>
                     <div className=" flex flex-col smobile:flex-row gap-3 sm:gap-5 ">
-                        <figure className=" w-[150px] smobile:w-[180px] h-[60px] mobile:py-[2px]">
+                        <a 
+                            href={"https://apps.apple.com/tr/app/neu-link/id6752373009"} 
+                            target="_blank"
+                            aria-label="Apple store"
+                            className=" cursor-pointer w-[150px] smobile:w-[180px] h-[60px] mobile:py-[2px]"
+                        >
                             <Image className=" h-full w-full " src={APPLE_EN} alt="apple store" />
-                        </figure>  
-                        <figure className=" w-[150px] smobile:w-[180px] h-[60px]">
-                            {/* <GooglePlay width={180} height={"100%"}  /> */}
-                            <Image className=" !h-full w-full object-cover " src={PLAY_EN} alt="play store" />
+                        </a>  
+                        <figure
+                            className=" w-[150px] smobile:w-[180px] h-[60px] relative cursor-not-allowed"
+                        >
+                            <div className=" absolute w-full self-center translate-y-[55%] rounded-lg !h-[90%] z-50 bg-gray opacity-50 " />
+                            <Image className=" h-full w-full object-cover " src={PLAY_EN} alt="play store" />
                         </figure>  
                                                   
                         {/* <div className=" flex items-center justify-between gap-2 smobile:gap-4 bg-black w-fit py-3 px-4 smobile:px-7 rounded-2xl ">
