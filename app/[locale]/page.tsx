@@ -139,7 +139,7 @@ export default function Home() {
                                 return(
                                     <li key={idx} className=" flex justify-center items-end relative w-full h-[100%] rounded-3xl overflow-hidden px-5 pt-5 bg-primary backdrop-blur-md ">
                                         <figure className="  h-fit w-full ">
-                                            <Image className=" object-contain w-full h-full " src={image} alt="app photo 1" />
+                                            <Image className=" object-contain w-full h-full " src={image} alt={`app photo ${idx}`} />
                                         </figure>
                                     </li>
                                 )

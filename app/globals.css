@@ -91,6 +91,6 @@
 
 @layer components{
   .page {
-    @apply flex flex-col gap-[80px] relative h-fit min-h-[100dvh] w-full mt-[60px] lmobile:mt-[130px]
+    @apply flex flex-col gap-[80px] relative h-fit min-h-[100dvh] w-full mt-[60px] lmobile:mt-[130px] px-6 py-12
   }
 }
