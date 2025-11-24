@@ -15,9 +15,7 @@ export default function page() {
                     <p className="mb-4">
                       Open the sidebar, by clicking your profile photo from the top right corner. Click on "settings" button.
                     </p>
-                    <figure className='  h-[350px] smobile:h-[450px] mobile:h-[600px] w-fit overflow-hidden rounded-lg '>
-                        <Image className=' w-full h-full object-contain ' src={STEP1} alt='step 1' />
-                    </figure>
+                    <Image className=' h-[350px] smobile:h-[450px] mobile:h-[600px] w-fit overflow-hidden object-contain rounded-lg ' src={STEP1} alt='step 1' />
                 </>
             ),
         },
@@ -28,9 +26,7 @@ export default function page() {
                     <p className="mb-4">
                       Click on the "Delete account" button
                     </p>
-                    <figure className='  h-[350px] smobile:h-[450px] mobile:h-[600px] w-fit overflow-hidden rounded-lg '>
-                        <Image className=' w-full h-full object-contain ' src={STEP2} alt='step 2' />
-                    </figure>
+                    <Image className=' h-[350px] smobile:h-[450px] mobile:h-[600px] w-fit overflow-hidden object-contain rounded-lg ' src={STEP2} alt='step 2' />
                 </>
             ),
         },
@@ -41,9 +37,7 @@ export default function page() {
                     <p className="mb-4">
                       Click "proceed" button
                     </p>
-                    <figure className='  h-[350px] smobile:h-[450px] mobile:h-[600px] w-fit overflow-hidden rounded-lg '>
-                        <Image className=' w-full h-full object-contain ' src={STEP3} alt='step 3' />
-                    </figure>
+                    <Image className=' h-[350px] smobile:h-[450px] mobile:h-[600px] w-fit overflow-hidden object-contain rounded-lg ' src={STEP3} alt='step 3' />
                 </>
             ),
         },
@@ -54,9 +48,7 @@ export default function page() {
                     <p className="mb-4">
                       Enter your password to confirm delete, then click on the "Submit" button.
                     </p>
-                    <figure className='  h-[350px] smobile:h-[450px] mobile:h-[600px] w-fit overflow-hidden rounded-lg '>
-                        <Image className=' w-full h-full object-contain ' src={STEP4} alt='step 4' />
-                    </figure>
+                    <Image className=' h-[350px] smobile:h-[450px] mobile:h-[600px] w-fit overflow-hidden object-contain rounded-lg ' src={STEP4} alt='step 4' />
                 </>
             ),
         },
