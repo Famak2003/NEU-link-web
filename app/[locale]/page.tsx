@@ -91,12 +91,14 @@ export default function Home() {
                         >
                             <Image className=" h-full w-full " src={APPLE_EN} alt="apple store" />
                         </a>  
-                        <figure
-                            className=" w-[150px] smobile:w-[180px] h-[60px] relative cursor-not-allowed"
+                        <a
+                            target="_blank"
+                            arial-label="Play Store"
+                            href="https://play.google.com/store/apps/details?id=com.neu.alumni.link"
+                            className=" w-[150px] smobile:w-[180px] h-[60px] relative cursor-pointer"
                         >
-                            <div className=" absolute w-full self-center translate-y-[55%] rounded-lg !h-[90%] z-50 bg-gray opacity-50 " />
                             <Image className=" h-full w-full object-cover " src={PLAY_EN} alt="play store" />
-                        </figure>  
+                        </a>  
                                                   
                         {/* <div className=" flex items-center justify-between gap-2 smobile:gap-4 bg-black w-fit py-3 px-4 smobile:px-7 rounded-2xl ">
                             <Image className=" w-[50px] h-[50px] " src={APPLE} alt="apple store" />
