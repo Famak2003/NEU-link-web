@@ -28,7 +28,7 @@ const Index:React.FC<{children: React.ReactNode}> = ({children}) => {
         { label: dict.PRIVACY_POLICY, path: "privacy-policy" },
         { label: dict.TERMS_AND_CONDITIONS, path: "terms-and-conditions" },
         { label: dict.ACCOUNT_DELETE_GUIDE, path: "delete-guide" },
-        // { label: dict.CONTACT_US, path: "contact-us" }
+        { label: dict.SUPPORT_AND_FAQ, path: "Q&A" }
     ]
 
     useEffect(() => {
