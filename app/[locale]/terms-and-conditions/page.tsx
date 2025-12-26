@@ -8,7 +8,7 @@ function TermsAndConditions() {
           <div className="max-w-4xl mx-auto text-gray-800 leading-relaxed">
             {/* Header */}
             <header className="mb-10">
-              <h1 className="text-4xl font-bold mb-2">Terms of Use and Conditions</h1>
+              <h1 className="pageHeader mb-2">Terms of Use and Conditions</h1>
               <p className="text-sm text-gray-600">
                 <span className="font-semibold">Effective Date:</span> December 2024{" "}
                 <span className="mx-2">|</span>

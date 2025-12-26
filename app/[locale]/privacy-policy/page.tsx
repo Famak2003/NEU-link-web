@@ -9,7 +9,7 @@ function PrivacyAndPolicy() {
         <div className="max-w-4xl mx-auto bg-white">
             {/* Header */}
             <div className="mb-12">
-                <h1 className="text-4xl font-bold text-gray-900 mb-4">Privacy Policy</h1>
+                <h1 className="pageHeader mb-4">Privacy Policy</h1>
                 <div className="flex gap-6 text-sm text-gray-600">
                 <p><span className="font-semibold">Effective Date:</span> {year}</p>
                 <p><span className="font-semibold">Last Updated:</span> {year}</p>

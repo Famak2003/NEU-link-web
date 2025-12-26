@@ -91,6 +91,9 @@
 
 @layer components{
   .page {
-    @apply flex flex-col gap-[80px] relative h-fit min-h-[100dvh] w-full mt-[60px] lmobile:mt-[130px] px-6 py-12
+    @apply flex flex-col gap-[80px] relative h-fit min-h-[100dvh] w-full mt-[60px] lmobile:mt-[130px] px-0 sm:px-6 py-12
+  }
+  .pageHeader {
+    @apply text-4xl sm:text-xl font-bold
   }
 }

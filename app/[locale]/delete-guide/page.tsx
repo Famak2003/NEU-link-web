@@ -55,11 +55,9 @@ export default function page() {
     ]
     return (
         <div className=' page '>
-            
-            
-
-            <header className="mb-10">
-              <h1 className="text-4xl font-bold mb-2">How to delete your account</h1>
+        
+            <header className="md:mb-10">
+              <h1 className="pageHeader mb-2">How to delete your account</h1>
             </header>
             {
                 steps.map((step, idx) => {
