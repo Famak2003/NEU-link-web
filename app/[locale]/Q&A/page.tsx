@@ -45,7 +45,7 @@ export default function QandA() {
     ];
 
     return (
-        <div className=" page min-h-screen py-12 px-4 sm:px-6">
+        <div className=" page min-h-screen">
             <div className="max-w-3xl mx-auto">
                 <header className="mb-12 text-center">
                 <h1 className="text-4xl font-extrabold text-slate-900 tracking-tight">{dict.SUPPORT_AND_FAQ}</h1>
